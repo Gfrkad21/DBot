@@ -25,7 +25,6 @@ from discord_bot_maker.dbot import DBot
 d = DBot((".", "-", "bot", ), "{YOUR_TOKEN_HERE}")
 
 d.createCommand(trigger = "jump", reply = "whoop!", reply2 = "I just jumped", emoji = "😄", image = "jumping.gif", help = "jumps")
-d.commandHelp()
 
 d.bRun()
 ```
