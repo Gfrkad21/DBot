@@ -41,5 +41,5 @@ d.bRun()
  - You can create as many commands as you like
  - The `bRun()` command is required to run the bot
 
-Join our discord server [here](https://discord.gg/E5wXQGjxsd)
+##### Join our discord server [here](https://discord.gg/E5wXQGjxsd)
 *version = 0.1.6*
