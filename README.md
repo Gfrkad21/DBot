@@ -11,7 +11,7 @@ Use this module to create professional discord bots in just a few lines of code.
 ### Code Format
 
 ```Python
-from discord_bot_maker.dbot import DBot
+from discord_bot_maker import DBot
 
 d = DBot(prefix_tuple, TOKEN)
 d.createCommand(trigger = trigger, reply = reply1, reply2 = reply2, emoji = emoji, image = link, help = help)
@@ -20,7 +20,7 @@ d.bRun()
 
 ### Example Program
 ```Python
-from discord_bot_maker.dbot import DBot
+from discord_bot_maker import DBot
 
 d = DBot((".", "-", "bot", ), "{YOUR_TOKEN_HERE}")
 
@@ -41,4 +41,5 @@ d.bRun()
  - You can create as many commands as you like
  - The `bRun()` command is required to run the bot
 
-*version = 0.1.4*
+Join our discord server (here)[https://discord.gg/E5wXQGjxsd]
+*version = 0.1.5*
