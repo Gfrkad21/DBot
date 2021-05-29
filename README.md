@@ -13,11 +13,11 @@ Use this module to create professional discord bots in just a few lines of code.
 ```Python
 from discord_bot_maker import DBot
 
-d = DBot(bPrefix : tuple = ".", owner : str = FATHER, helpCommand : bool = True, baseCode : bool = True)
+d = DBot(bTOKEN : str, bPrefix : tuple = ".", owner : str = FATHER, helpCommand : bool = True, baseCode : bool = True)
 
 d.createCommand(trigger = trigger, reply = reply1, reply2 = reply2, emoji = emoji, image = link, help = help)
 
-d.bRun(TOKEN)
+d.bRun()
 ```
 
 ### Code Format (Shorter)
@@ -25,27 +25,37 @@ d.bRun(TOKEN)
 ```Python
 from discord_bot_maker import DBot
 
-d = DBot(bPrefix : tuple = ".", owner : str = FATHER, helpCommand : bool = True, baseCode : bool = True)
+d = DBot(bTOKEN : str, bPrefix : tuple = ".", owner : str = FATHER, helpCommand : bool = True, baseCode : bool = True)
 
 d + (trigger = trigger, reply = reply1, reply2 = reply2, emoji = emoji, image = link, help = help)
 
-d(TOKEN)
+d()
+```
+
+### Code Format (Shrotest)
+
+```Python
+from discord_bot_maker import DBot
+
+with DBot(TOKEN) as d:
+    d + (trigger = trigger, reply = reply1, reply2 = reply2, emoji = emoji, image = link, help = help)
 ```
 
 ### Example Program
 ```Python
 from discord_bot_maker import DBot
 
-d = DBot()
+d = DBot(TOKEN)
 
 d.createCommand(trigger = "jump", reply = "whoop!", reply2 = "I just jumped", emoji = "😄", image = "jumping.gif", help = "jumps")
 
-d.bRun(TOKEN)
+d()
 ```
 
 ### Extra Features
  - Get number of commands using `len(d)`
  - Get instance of bot using `d.getBotInstance`
+
 (replace `d` with DBot object)
 
 ### Pre Made commands
@@ -61,7 +71,7 @@ d.bRun(TOKEN)
  - The `bRun()` command is required to run the bot(You can also call the object like so: `d()` if d is your DBot object)
 
 ##### Join our discord server [here](https://discord.gg/E5wXQGjxsd)
-*version = 0.1.6*
+*version = 0.1.7*
 
 ## Future Updates
 Easier way to create commands using command objects
