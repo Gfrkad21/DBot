@@ -73,4 +73,4 @@ d()
 ##### Join our discord server [here](https://discord.gg/E5wXQGjxsd)
 *version = 0.1.8*
 
-![discord-bot-maker](https://imgur.com/a/bvguj1E)
+![discord-bot-maker](https://imgur.com/YhSoa1X)
