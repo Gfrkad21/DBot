@@ -1,14 +1,12 @@
-Now anyone can make their own **customized** discord bot
+![discord-bot-maker](https://i.imgur.com/YhSoa1X.png)
 
-#### Introduction
+### Introduction
 
 Use this module to create professional discord bots in just a few lines of code. Created by Gfrkad to fulfill the wishes of gamers who want an awesome custom bot for their discord server.
 
 - Short Code
 - Easy to Learn and Understand
 - Regular updates to functionality
-
-![discord-bot-maker](https://i.imgur.com/YhSoa1X.png)
 
 ### Code Format
 
