@@ -8,6 +8,8 @@ Use this module to create professional discord bots in just a few lines of code.
 - Easy to Learn and Understand
 - Regular updates to functionality
 
+![discord-bot-maker](https://i.imgur.com/YhSoa1X.png)
+
 ### Code Format
 
 ```Python
@@ -72,5 +74,3 @@ d()
 
 ##### Join our discord server [here](https://discord.gg/E5wXQGjxsd)
 *version = 0.1.8*
-
-![discord-bot-maker](https://i.imgur.com/YhSoa1X.png)
