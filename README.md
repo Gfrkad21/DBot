@@ -38,7 +38,7 @@ d()
 from discord_bot_maker import DBot
 
 with DBot(TOKEN) as d:
-    d + (trigger = trigger, reply = reply1, reply2 = reply2, emoji = emoji, image = link, help = help)
+    d + (trigger, reply1, reply2, emoji, link, help)
 ```
 
 ### Example Program
@@ -57,6 +57,31 @@ d()
  - Get instance of bot using `d.getBotInstance`
 
 (replace `d` with DBot object)
+
+### Internal Variables
+ - Author
+     - `<author name>`
+     - `<author mention>`
+     - `<author display name>`
+     - `<author discriminator>`
+ - Message
+     - `<message time>`
+     - `<message content>`
+     - `<message clean content>`
+ - Channel
+     - `<channel name>`
+     - `<channel topic>`
+     - `<channel category>`
+     - `<channel mention>`
+ - Guild
+     - `<guild name>`
+     - `<guild member count>`
+     - `<guild description>`
+     - `<guild features>`
+
+##### Use the above given variables as strings in reply or reply2
+**NOTE :** Mentions will only work in reply2
+     
 
 ### Pre Made commands
 
