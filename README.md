@@ -27,7 +27,7 @@ from discord_bot_maker import DBot
 
 d = DBot(bTOKEN : str, bPrefix : tuple = ".", owner : str = FATHER, helpCommand : bool = True, baseCode : bool = True)
 
-d + (trigger = trigger, reply = reply1, reply2 = reply2, emoji = emoji, image = link, help = help)
+d + (trigger, reply1, reply2, emoji, link, help)
 
 d()
 ```
@@ -71,7 +71,6 @@ d()
  - The `bRun()` command is required to run the bot(You can also call the object like so: `d()` if d is your DBot object)
 
 ##### Join our discord server [here](https://discord.gg/E5wXQGjxsd)
-*version = 0.1.7*
+*version = 0.1.8*
 
-## Future Updates
-Easier way to create commands using command objects
+!(discord-bot-maker)[https://imgur.com/a/bvguj1E]
